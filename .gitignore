@@ -1,0 +1,6 @@
+*
+
+!src/
+!src/main.zig
+!build.zig
+!build.zig.zon
