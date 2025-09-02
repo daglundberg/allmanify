@@ -13,7 +13,7 @@
 
 * **Readability:** The structure of Allman formatted code can be easier to quickly parse for humans.
 * **Tooling:** Some language communities strongly favor K&R, which has led to standard formatting tools not supporting Allman.
-* **Your code, your choice:** While defining a standard is beneficial code readability is subjective and maximising code readability is important. You can always format it back to whatever the language specific convention is before committing it to repos.
+* **Your code, your choice:** While defining a standard is beneficial, code readability is subjective and more important. You can always format it back to whatever the language specific convention is before committing it to repos.
 
 
 ## What it does
