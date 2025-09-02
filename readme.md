@@ -12,15 +12,16 @@
 ## Why
 
 * **Readability:** The structure of Allman formatted code can be easier to quickly parse for humans.
-* **Tooling:** Some language communities strongly favor K&R, which has led to standard formatting tools not supporting Allman.
-* **Your code, your choice:** While defining a standard is beneficial, code readability is subjective and more important. You can always format it back to whatever the language specific convention is before committing it to repos.
+* **Lacking tooling:** Some language communities strongly favor K&R, which has led to standard formatting tools not supporting Allman.
+* **Styling is cheap, your time is not:** While adhering to a strict formatting standard can be beneficial, code style readability is highly subjective and at the same time more important. Just remember to run that standard formatter before commiting your changes. No one will know. 
 
 
 ## What it does
 
-* Moves all line-ending `{` onto its own line with the same indentation as the line it ended.
+* Moves all line-ending `{` onto its own line with the same indentation as that line.
 * Handles special cases: **} else {**, and **} else if ()** that also need extra line breaks inserted.
 * Converts space indenting to tabs while re-indenting (This will change later).
+
 
 ## What it **does not** do yet
 
@@ -44,7 +45,6 @@
 ### From source (Zig)
 
 ```sh
-# Requires a reasonably recent Zig (0.12+ recommended)
 zig build
 ```
 
@@ -152,8 +152,8 @@ function f(x)
 ## Roadmap
 
 * More testing
-* More 
 * Editor integrations (pre-commit, `git` filter, `zig fmt`-adjacent workflows)
+* Evaluate and prioritize additional features
 
 ---
 
@@ -169,6 +169,6 @@ Prototype quality is expected. Please:
 
 ## License
 
-**Unlicense** — a permissive license that dedicates the work to the public domain.
+**Unlicense** - essentially public domain.
 
-See the `LICENSE` file for full details.
+See `LICENSE` file for full details.
