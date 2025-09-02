@@ -1,16 +1,19 @@
 # allmanify
 
 
-Allman style can improve readability. **allmanify** is a prototype tool that rewrites brace placement while preserving the rest of your code.
+[Allman style](allmanstyle.com) can improve code readability. **allmanify** converts **K&R style** code to **Allman style**.
 
-> ⚠️ Status: **prototype**. Should theoretically work with **Zig**, **Swift**, **JavaScript/TypeScript**, **C#** and **C++** and more.. but currently only lightly tested with Zig and Swift.
+> ⚠️ Status: **prototype**.
+> 
+> Should theoretically work with **Zig**, **Swift**, **JavaScript/TypeScript**, **C#** and **C++** and more.. but is currently only lightly tested with Zig and Swift.
 
 ---
 
 ## Why
 
 * **Readability:** The structure of Allman formatted code can be easier to quickly parse for humans.
-* **Tooling:** Some language communities strongly favor K&R, which has led to their standard formatting tools not supporting Allman.
+* **Tooling:** Some language communities strongly favor K&R, which has led to standard formatting tools not supporting Allman.
+* **Your code, your choice:** While defining a standard is beneficial code readability is subjective and maximising code readability is important. You can always format it back to whatever the language specific convention is before committing it to repos.
 
 
 ## What it does
