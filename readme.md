@@ -13,21 +13,21 @@
 
 * **Readability:** The structure of Allman formatted code can be easier to quickly parse for humans.
 * **Lacking tooling:** Some language communities strongly favor K&R, which has led to standard formatting tools not supporting Allman.
-* **Styling is cheap, your time is not:** While adhering to a strict formatting standard can be beneficial, code style readability is highly subjective and at the same time more important. Just remember to run that standard formatter before commiting your changes. No one will know. 
+* **Your monitor, your choice:** While a strict formatting standard can be beneficial in a team setting, code style readability is highly subjective and at the same time the *entire point* of a standard in the first place. Just remember to run that standard formatter before commiting your changes. No one has to know. 
 
 
 ## What it does
 
 * Moves all line-ending `{` onto its own line with the same indentation as that line.
 * Handles special cases: **} else {**, and **} else if ()** that also need extra line breaks inserted.
-* Converts space indenting to tabs while re-indenting (This will change later).
+* Converts space indenting to tabs while re-indenting (This behavior will change).
 
 
 ## What it **does not** do yet
 
 * Full parsing
 * Reflowing code
-* Respecting comments
+* Leaving commented lines alone
 
 ---
 
