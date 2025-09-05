@@ -54,24 +54,15 @@ The built binary will be at `zig-out/bin/allmanify`.
 
 ## Usage
 
-```
-allmanify [OPTIONS] [PATH ...]
-```
-
-### Common examples
-
-* **Format a single file, writing to stdout** (non-destructive):
+* **Format a single file, writing to stdout**:
 
   ```sh
-  allmanify src/main.zig > src/main.allman.zig
+  allmanify main.zig > main.allman.zig
   ```
 
-* **In-place rewrite** (creates a backup by default):
+### Warning 
 
-  ```sh
-  allmanify --write src/main.swift
-  ```
-
+Do NOT write to the same file! This does not work yet! It will corrupt your file!
 ---
 
 ## Before & After examples
