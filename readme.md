@@ -159,16 +159,12 @@ function f(x)
 
 ## Contributing
 
-Prototype quality is expected. Please:
-
-1. Open an issue with a minimal code sample that misbehaves, and describe the expected vs actual output.
-2. Add tests alongside your fix if possible.
-3. Keep changes small and focused.
+You're more than welcome to help out. Just open an issue or create a pull request.
 
 ---
 
 ## License
 
-**Unlicense** - essentially public domain.
+**Unlicense** - No conditions, no warranties. Public domain.
 
 See `LICENSE` file for full details.
